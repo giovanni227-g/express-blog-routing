@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express')
 const postsRouter = require('./routers/posts')
 const notFound = require('./middlewares/notFound')
